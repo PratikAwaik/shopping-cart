@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.6dfe1152.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.e9af1dba.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.e9af1dba.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.b6a2e420.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.b6a2e420.js.map",
+    "static/js/2.0a4554df.chunk.js": "/shopping-cart/static/js/2.0a4554df.chunk.js",
+    "static/js/2.0a4554df.chunk.js.map": "/shopping-cart/static/js/2.0a4554df.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "static/css/main.6dfe1152.chunk.css.map": "/shopping-cart/static/css/main.6dfe1152.chunk.css.map",
+    "static/js/2.0a4554df.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.0a4554df.chunk.js.LICENSE.txt",
+    "static/media/cart.54f4b1fe.svg": "/shopping-cart/static/media/cart.54f4b1fe.svg",
+    "static/media/checkmark.cba614eb.svg": "/shopping-cart/static/media/checkmark.cba614eb.svg",
+    "static/media/orbitPath.9eda5ba7.png": "/shopping-cart/static/media/orbitPath.9eda5ba7.png",
+    "static/media/product-1-1.2c46a1f5.jpg": "/shopping-cart/static/media/product-1-1.2c46a1f5.jpg",
+    "static/media/product-1-2.30db5cb4.jpg": "/shopping-cart/static/media/product-1-2.30db5cb4.jpg",
+    "static/media/product-1-3.2eb899bf.jpg": "/shopping-cart/static/media/product-1-3.2eb899bf.jpg",
+    "static/media/product-1-4.94d47f13.jpg": "/shopping-cart/static/media/product-1-4.94d47f13.jpg",
+    "static/media/product-2-1.4c8274a8.jpg": "/shopping-cart/static/media/product-2-1.4c8274a8.jpg",
+    "static/media/product-2-2.3b0d1633.jpg": "/shopping-cart/static/media/product-2-2.3b0d1633.jpg",
+    "static/media/product-2-3.27cee3fa.jpeg": "/shopping-cart/static/media/product-2-3.27cee3fa.jpeg",
+    "static/media/product-2-4.7d8a24d0.jpg": "/shopping-cart/static/media/product-2-4.7d8a24d0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6a2e420.js",
+    "static/js/2.0a4554df.chunk.js",
+    "static/css/main.6dfe1152.chunk.css",
+    "static/js/main.e9af1dba.chunk.js"
+  ]
+}
