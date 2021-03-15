@@ -11,10 +11,10 @@ function PosterDetail(props) {
   function handleClick(e) {
     const prevQuantity = { ...quantity };
 
-    if (inputValue > 0) {
+    if (parseInt(inputValue) > 0) {
       if (prevQuantity[props.poster.itemId])
-        prevQuantity[props.poster.itemId] += inputValue;
-      else prevQuantity[props.poster.itemId] = inputValue;
+        prevQuantity[props.poster.itemId] += parseInt(inputValue);
+      else prevQuantity[props.poster.itemId] = parseInt(inputValue);
       setQuantity(prevQuantity);
       setAddClicked(true);
     } else setAddClicked(false);
@@ -29,8 +29,8 @@ function PosterDetail(props) {
   }
 
   function handleChange(e) {
-    const { value } = e.target;
-    if (value) setInputValue(parseInt(value));
+    const value = e.target.value;
+    setInputValue(value);
     setAddClicked(false);
   }
 
