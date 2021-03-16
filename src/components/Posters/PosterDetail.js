@@ -40,7 +40,7 @@ function PosterDetail(props) {
         <span>{props.poster.itemName}</span>
       </div>
       <div className="poster-detail__img">
-        <img src={props.poster.itemImages[0]} alt="Voyager 1 Poster" />
+        <img src={props.poster.itemImages[0]} alt="Voyager Poster" />
       </div>
       <div className="poster-detail__pricing">
         <div className="poster-detail__price">
@@ -55,6 +55,10 @@ function PosterDetail(props) {
       </div>
       <div className="poster-detail__dimensions">
         <span>Dimensions: {props.poster.itemDimensions}</span>
+      </div>
+
+      <div className="poster-detail__more">
+        <Link to={`/product/${props.poster.itemId}`}>More Photos</Link>
       </div>
 
       <div className="poster-detail__buy">
