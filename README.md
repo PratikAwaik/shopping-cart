@@ -1,7 +1,6 @@
 # Shopping Cart
 
 This website is a clone of [spaceposters.co](https://www.spaceposters.co/).
-Mobile responsiveness coming soon.
 
 ## [View Live](https://pratikawaik.github.io/shopping-cart/)
 
