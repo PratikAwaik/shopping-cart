@@ -264,7 +264,7 @@ body {
   margin: 2rem;
   border: 2px solid #000;
   text-align: center;
-  width: 100rem;
+  width: 90rem;
 }
 
 .poster-detail__name {
@@ -395,7 +395,7 @@ body {
 /* ----------------------------- */
 
 .cart__container {
-  max-width: 100rem;
+  max-width: 90rem;
   margin: 5rem auto;
   border: 2px solid #000;
 }
@@ -555,37 +555,7 @@ textarea {
   color: #0e830f;
 }
 
-/* -------------------------- */
-/* -------------------------- */
-/* Some Mobile Responsiveness */
-/* -------------------------- */
-/* -------------------------- */
-
-@media only screen and (max-width: 1150px) {
-  html {
-    font-size: 9px;
-  }
-}
-
-@media only screen and (max-width: 1035px) {
-  html {
-    font-size: 8px;
-  }
-}
-
-@media only screen and (max-width: 920px) {
-  html {
-    font-size: 7px;
-  }
-}
-
-@media only screen and (max-width: 805px) {
-  html {
-    font-size: 6px;
-  }
-}
-
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 1024px) {
   .home__content__details__title span {
     font-size: 5rem;
   }
