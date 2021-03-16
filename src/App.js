@@ -4,6 +4,8 @@ import Home from "./components/Home/Home";
 import Posters from "./components/Posters/Posters";
 import Cart from "./components/Cart/Cart";
 import Contact from "./components/Contact/Contact";
+import Product from "./components/Product/Product";
+import ErrorPage from "./components/ErrorPage";
 import { ItemContext } from "./components/Posters/ItemContext";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./styles/App.css";
@@ -21,6 +23,8 @@ function App() {
             <Route exact path="/posters" component={Posters} />
             <Route exact path="/cart" component={Cart} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/product/:id" component={Product} />
+            <Route component={ErrorPage} />
           </Switch>
         </ItemContext.Provider>
       </div>
